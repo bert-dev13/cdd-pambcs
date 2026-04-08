@@ -1,0 +1,83 @@
+/**
+ * Lucide icon system — PAMBCS Region 02
+ * Outline icons only; sizes align with nav (18px), buttons (16px), cards (24px), features (24–28px).
+ */
+
+.lucide {
+  flex-shrink: 0;
+}
+
+/* Navigation — desktop & mobile */
+.lucide-nav {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+/* Primary / secondary CTAs */
+.lucide-btn {
+  width: 1rem;
+  height: 1rem;
+}
+
+.lucide-btn-lg {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+/* Card wells (featured + resource portal) */
+.lucide-card {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.lucide-card-lg {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+/* Core functions / section emphasis */
+.lucide-feature {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Footer quick links */
+.lucide-footer {
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.85;
+}
+
+a:hover .lucide-footer {
+  opacity: 1;
+}
+
+/* Showcase carousel controls */
+.lucide-carousel {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Subtle icon motion on interactive controls */
+.lucide-shift {
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.2s ease;
+}
+
+.group:hover .lucide-shift {
+  transform: translateX(3px);
+}
+
+.resource-open-link:hover .lucide-shift-end,
+.rp-btn-primary:hover .lucide-shift-end {
+  transform: translateX(4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lucide-shift,
+  .group:hover .lucide-shift,
+  .resource-open-link:hover .lucide-shift-end,
+  .rp-btn-primary:hover .lucide-shift-end {
+    transform: none;
+    transition: none;
+  }
+}

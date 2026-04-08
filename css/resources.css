@@ -1,0 +1,266 @@
+/**
+ * Resource Portal — PAMBCS Region 02
+ * Custom styles: branding tokens, motion, card/button polish (Tailwind handles layout).
+ */
+
+:root {
+  --rp-forest: #1f4d3a;
+  --rp-moss: #3b7a57;
+  --rp-teal: #2e7d73;
+  --rp-mistgreen: #e8f4ed;
+  --rp-mistblue: #e9f3f7;
+  --rp-stone: #f5f7f6;
+  --rp-shadow-soft: 0 10px 25px -12px rgba(31, 77, 58, 0.25);
+  --rp-shadow-lift: 0 18px 40px -16px rgba(31, 77, 58, 0.28);
+}
+
+/* Matches shared header script (js/script.js) — Tailwind config not on this page */
+.shadow-soft {
+  box-shadow: var(--rp-shadow-soft);
+}
+
+.rp-page {
+  font-family: "Nunito", system-ui, sans-serif;
+}
+
+/* Header brand — match home page (Bebas Neue) */
+.site-brand {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+/* Poppins — headers, titles, labels, nav (body copy stays Nunito) */
+.rp-font-poppins,
+.rp-meta-chip,
+.rp-section-title,
+.rp-section-lead,
+.rp-filter-tab,
+.rp-filter-live,
+#resource-grid article h3,
+.rp-status-badge,
+.rp-btn-primary,
+.rp-btn-soon,
+.rp-footer-title,
+.rp-footer-nav-label,
+.rp-footer-link {
+  font-family: "Poppins", system-ui, sans-serif;
+}
+
+.rp-section-title {
+  letter-spacing: -0.02em;
+}
+
+#resource-grid article h3 {
+  letter-spacing: -0.015em;
+}
+
+.rp-status-badge {
+  letter-spacing: 0.02em;
+}
+
+.rp-filter-tab {
+  letter-spacing: 0.01em;
+}
+
+/* Dark forest intro band — body `text-slate-800` must not win over Tailwind whites on supporting copy */
+#resource-portal-intro .rp-section-lead {
+  color: #fff;
+}
+
+#resource-portal-intro [aria-label="Resource portal information"] {
+  color: #fff;
+}
+
+/* Filter tabs — default + selected (avoid Tailwind bg/border utilities on the same node) */
+.rp-filter-tab {
+  background-color: #fff;
+  border: 1px solid rgba(226, 232, 240, 0.95);
+  color: #334155;
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.rp-filter-tab:hover:not([aria-selected="true"]) {
+  border-color: rgba(46, 125, 115, 0.35);
+  background-color: rgba(232, 244, 237, 0.5);
+  color: var(--rp-forest);
+}
+
+.rp-filter-tab:focus-visible {
+  outline: 2px solid var(--rp-teal);
+  outline-offset: 2px;
+}
+
+.rp-filter-tab[aria-selected="true"] {
+  background-color: var(--rp-forest);
+  border-color: var(--rp-forest);
+  color: #fff;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12) inset;
+}
+
+.rp-filter-tab[aria-selected="true"]:hover {
+  background-color: var(--rp-moss);
+  border-color: var(--rp-moss);
+  color: #fff;
+}
+
+/* Resource cards */
+.rp-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease,
+    border-color 0.25s ease;
+  box-shadow: var(--rp-shadow-soft);
+}
+
+.rp-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--rp-shadow-lift);
+}
+
+.rp-card--muted {
+  opacity: 0.92;
+}
+
+.rp-card--muted:hover {
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rp-card,
+  .rp-card:hover,
+  .rp-card--muted:hover {
+    transition: none;
+    transform: none;
+  }
+}
+
+/* Icon well */
+.rp-card-icon {
+  flex-shrink: 0;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.25s ease;
+}
+
+.rp-card:hover .rp-card-icon {
+  transform: scale(1.05);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rp-card:hover .rp-card-icon {
+    transform: none;
+  }
+}
+
+/* Entrance animation */
+@keyframes rp-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rp-card-animate {
+  opacity: 0;
+  transform: translateY(14px);
+  animation: rp-fade-up 0.55s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+#resource-grid .rp-card-animate:nth-child(1) {
+  animation-delay: 0.04s;
+}
+#resource-grid .rp-card-animate:nth-child(2) {
+  animation-delay: 0.1s;
+}
+#resource-grid .rp-card-animate:nth-child(3) {
+  animation-delay: 0.16s;
+}
+#resource-grid .rp-card-animate:nth-child(4) {
+  animation-delay: 0.22s;
+}
+#resource-grid .rp-card-animate:nth-child(5) {
+  animation-delay: 0.28s;
+}
+#resource-grid .rp-card-animate:nth-child(6) {
+  animation-delay: 0.34s;
+}
+#resource-grid .rp-card-animate:nth-child(7) {
+  animation-delay: 0.4s;
+}
+#resource-grid .rp-card-animate:nth-child(8) {
+  animation-delay: 0.46s;
+}
+#resource-grid .rp-card-animate:nth-child(9) {
+  animation-delay: 0.52s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rp-card-animate {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+}
+
+/* Hidden state for filter */
+.rp-card[hidden] {
+  display: none !important;
+}
+
+/* Primary button + arrow */
+.rp-btn-primary {
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rp-btn-primary:hover {
+  box-shadow: 0 6px 16px -6px rgba(31, 77, 58, 0.45);
+}
+
+.rp-btn-primary:focus-visible {
+  outline: 2px solid var(--rp-teal);
+  outline-offset: 2px;
+}
+
+.rp-btn-arrow {
+  display: inline-flex;
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.rp-btn-primary:hover .rp-btn-arrow {
+  transform: translateX(4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rp-btn-primary:hover .rp-btn-arrow {
+    transform: none;
+  }
+}
+
+/* Disabled / coming soon */
+.rp-btn-soon {
+  cursor: not-allowed;
+}
+
+/* Dashboard panel chrome */
+.rp-dashboard-panel {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(245, 247, 246, 0.98) 100%);
+  border: 1px solid rgba(31, 77, 58, 0.08);
+}
+
+/* Live region — visually hidden */
+.rp-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

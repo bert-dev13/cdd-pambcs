@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAMBCS Region 02 | Home</title>
+  <meta name="description" content="Protected Area Management and Biodiversity Conservation Section Region 02 official information portal." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: "#1f4d3a",
+            moss: "#3b7a57",
+            tealsoft: "#2e7d73",
+            mistgreen: "#e8f4ed",
+            mistblue: "#e9f3f7",
+            stonebase: "#f5f7f6"
+          },
+          fontFamily: {
+            nunito: ["Nunito", "sans-serif"],
+            bebas: ["Bebas Neue", "sans-serif"],
+            poppins: ["Poppins", "sans-serif"]
+          },
+          boxShadow: {
+            soft: "0 10px 25px -12px rgba(31,77,58,0.25)"
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="css/homepage.css" />
+  <link rel="stylesheet" href="css/lucide-icons.css" />
+</head>
+<body class="bg-stonebase font-nunito text-slate-800 antialiased scroll-smooth">
+  <header id="site-header" class="sticky top-0 z-50 border-b border-slate-200/90 bg-white/90 transition-all duration-300 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
+      <a href="index.html" class="group inline-flex items-center gap-3 rounded-md px-1 py-1">
+        <span class="inline-flex items-center gap-2">
+          <img src="assets/images/denr-logo.png" alt="DENR Logo" class="h-10 w-auto object-contain" />
+          <img src="assets/images/Bagong_Pilipinas_logo.png" alt="Bagong Pilipinas Logo" class="h-10 w-auto object-contain" />
+        </span>
+        <span class="site-brand text-base font-semibold tracking-wide text-forest sm:text-lg">PAMBCS Region 02</span>
+      </a>
+      <button id="menu-toggle" type="button" class="rounded-md border border-transparent p-2 text-forest transition hover:border-mistgreen hover:bg-mistgreen/60 md:hidden" aria-label="Toggle navigation menu" aria-expanded="false">
+        <i data-lucide="menu" class="lucide h-6 w-6" aria-hidden="true"></i>
+      </button>
+      <nav class="hidden items-center gap-1 md:flex" aria-label="Primary">
+        <a href="index.html" aria-current="page" class="group relative inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium text-forest transition-colors duration-200 after:absolute after:inset-x-4 after:-bottom-0.5 after:h-0.5 after:rounded-full after:bg-forest after:content-['']">
+          <i data-lucide="home" class="lucide lucide-nav" aria-hidden="true"></i>
+          <span>Home</span>
+        </a>
+        <a href="about.html" class="group relative inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium text-slate-700 transition-colors duration-200 hover:text-tealsoft after:absolute after:inset-x-4 after:-bottom-0.5 after:h-0.5 after:origin-left after:scale-x-0 after:rounded-full after:bg-tealsoft after:transition-transform after:duration-200 after:content-[''] hover:after:scale-x-100">
+          <i data-lucide="info" class="lucide lucide-nav" aria-hidden="true"></i>
+          <span>About PAMBCS</span>
+        </a>
+        <a href="resources.html" class="group relative inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium text-slate-700 transition-colors duration-200 hover:text-tealsoft after:absolute after:inset-x-4 after:-bottom-0.5 after:h-0.5 after:origin-left after:scale-x-0 after:rounded-full after:bg-tealsoft after:transition-transform after:duration-200 after:content-[''] hover:after:scale-x-100">
+          <i data-lucide="layout-dashboard" class="lucide lucide-nav" aria-hidden="true"></i>
+          <span>Resource Portal</span>
+        </a>
+      </nav>
+    </div>
+    <nav id="mobile-menu" class="max-h-0 overflow-hidden border-t border-transparent bg-white px-4 opacity-0 transition-all duration-300 md:hidden pointer-events-none">
+      <div class="flex flex-col gap-1 py-3 text-sm font-medium">
+        <a href="index.html" aria-current="page" class="inline-flex items-center gap-2 rounded-md border border-mistgreen bg-mistgreen/70 px-3 py-2.5 text-forest">
+          <i data-lucide="home" class="lucide lucide-nav" aria-hidden="true"></i>
+          <span>Home</span>
+        </a>
+        <a href="about.html" class="inline-flex items-center gap-2 rounded-md px-3 py-2.5 text-slate-700 transition-colors hover:bg-mistgreen/70 hover:text-forest">
+          <i data-lucide="info" class="lucide lucide-nav" aria-hidden="true"></i>
+          <span>About PAMBCS</span>
+        </a>
+        <a href="resources.html" class="inline-flex items-center gap-2 rounded-md px-3 py-2.5 text-slate-700 transition-colors hover:bg-mistgreen/70 hover:text-forest">
+          <i data-lucide="layout-dashboard" class="lucide lucide-nav" aria-hidden="true"></i>
+          <span>Resource Portal</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="relative h-[70vh] min-h-[500px] overflow-hidden">
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-100 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/1%20BATANES.jpg');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/2%20PENABLANCA.jpg');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/3%20MAGAPIT.jpg');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/4%20PALAUI.jpg');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/5%20BAUA%20AND%20WANGAG.jpg');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/6%20TUMAUINI.jpg');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/7%20FUYOT.jpg');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/8%20NORTHERN%20SIERRA.jpg');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/9%20SALINAS.jpg');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/10%20DUPAX.jpg');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/11CASECNAN.jpg');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/12%20BANGAN.jpg');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000" style="background-image: url('assets/images/carousel/13%20QUIRINO.jpg');"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-forest/80 via-forest/65 to-tealsoft/75"></div>
+      <div class="relative mx-auto flex h-full max-w-7xl items-center px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl text-white">
+          <p class="mb-3 text-sm uppercase tracking-[0.2em] text-mistgreen">Department of Environment and Natural Resources</p>
+          <h1 class="mb-4 text-4xl font-bold leading-tight md:text-5xl">PAMBCS Region 02</h1>
+          <p class="mb-8 text-base text-slate-100 md:text-lg">Protecting biodiversity, strengthening protected area governance, and sustaining ecological integrity for future generations.</p>
+          <div class="flex flex-wrap gap-3">
+            <a href="about.html" class="group inline-flex items-center gap-2 rounded-md bg-white px-5 py-3 text-sm font-semibold text-forest shadow-soft transition hover:-translate-y-0.5 hover:bg-mistgreen">
+              <span>Learn About PAMBCS</span>
+              <i data-lucide="arrow-right" class="lucide lucide-btn lucide-shift text-forest" aria-hidden="true"></i>
+            </a>
+            <a href="resources.html" class="group inline-flex items-center gap-2 rounded-md border border-white/70 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10">
+              <span>View Resources</span>
+              <i data-lucide="external-link" class="lucide lucide-btn lucide-shift text-white" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="home-content-sections">
+    <section
+      id="about-pambcs-preview"
+      class="relative isolate overflow-hidden border-b border-slate-200/70 bg-gradient-to-b from-white via-stonebase/80 to-mistblue/25 py-20 sm:py-24 lg:py-28"
+      aria-labelledby="about-pambcs-heading"
+    >
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_90%_55%_at_15%_-10%,rgba(46,125,115,0.14),transparent_55%)]"></div>
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_100%_100%,rgba(233,243,247,0.9),transparent_50%)]"></div>
+      <div
+        class="pointer-events-none absolute inset-0 opacity-[0.45] [background-image:linear-gradient(rgba(31,77,58,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(31,77,58,0.04)_1px,transparent_1px)] [background-size:48px_48px]"
+      ></div>
+      <div class="pointer-events-none absolute -left-24 top-1/4 h-72 w-72 rounded-full bg-mistgreen/50 blur-3xl"></div>
+      <div class="pointer-events-none absolute -right-16 bottom-0 h-80 w-80 rounded-full bg-sky-100/60 blur-3xl"></div>
+      <div class="pointer-events-none absolute right-[12%] top-16 hidden h-24 w-24 rounded-2xl border border-tealsoft/15 bg-white/30 shadow-sm lg:block about-pambcs-float"></div>
+      <div class="pointer-events-none absolute bottom-24 left-[8%] hidden h-16 w-16 rounded-full border border-forest/10 bg-mistgreen/40 lg:block about-pambcs-float" style="animation-delay: -3s;"></div>
+
+      <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid items-stretch gap-12 lg:grid-cols-12 lg:gap-14 xl:gap-16">
+          <div class="flex flex-col justify-center space-y-6 lg:col-span-7 opacity-0 translate-y-4 transition-all duration-700 ease-out" data-reveal>
+            <div class="flex flex-wrap items-center gap-3">
+              <p
+                class="section-eyebrow inline-flex items-center gap-2 rounded-full border border-tealsoft/25 bg-white/90 px-3 py-1.5 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-tealsoft shadow-sm backdrop-blur-sm"
+              >
+                <i data-lucide="leaf" class="lucide h-3.5 w-3.5 shrink-0 text-tealsoft" aria-hidden="true"></i>
+                About PAMBCS
+              </p>
+              <span class="hidden h-px flex-1 min-w-[2rem] max-w-[4.5rem] bg-gradient-to-r from-tealsoft/40 to-transparent sm:block" aria-hidden="true"></span>
+            </div>
+
+            <div class="space-y-4">
+              <h2
+                id="about-pambcs-heading"
+                class="font-poppins text-3xl font-bold leading-[1.12] tracking-tight text-forest sm:text-4xl lg:text-[2.45rem] lg:leading-[1.1]"
+              >
+                Protected Area Management and Biodiversity Conservation Section
+              </h2>
+              <p class="max-w-[34rem] text-base leading-relaxed text-slate-700 md:text-lg md:leading-relaxed">
+                PAMBCS Region 02 leads efforts in protected area management and biodiversity conservation through monitoring systems, policy support, and coordinated environmental programs.
+              </p>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-3 pt-1" aria-hidden="true">
+              <span class="h-px w-14 bg-gradient-to-r from-tealsoft via-moss/50 to-transparent"></span>
+              <span class="rounded-full bg-tealsoft/15 px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-tealsoft">Region 02</span>
+            </div>
+
+            <div class="pt-1">
+              <a
+                href="about.html"
+                class="group relative inline-flex items-center gap-2.5 overflow-hidden rounded-full bg-forest px-7 py-3.5 text-sm font-semibold text-white shadow-[0_12px_32px_-8px_rgba(31,77,58,0.45)] ring-1 ring-forest/20 transition-all duration-300 hover:-translate-y-1 hover:bg-moss hover:shadow-[0_18px_40px_-10px_rgba(31,77,58,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-tealsoft focus-visible:ring-offset-2"
+              >
+                <span class="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/15 to-transparent transition-transform duration-500 group-hover:translate-x-full"></span>
+                <span class="relative">Read More</span>
+                <i data-lucide="arrow-right" class="lucide lucide-btn relative lucide-shift" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="relative lg:col-span-5 opacity-0 translate-y-4 transition-all duration-700 ease-out"
+            data-reveal
+            data-reveal-delay="160ms"
+          >
+            <div
+              class="pointer-events-none absolute -inset-px rounded-[1.65rem] bg-gradient-to-br from-tealsoft/35 via-white/40 to-sky-200/50 opacity-90 blur-[1px]"
+              aria-hidden="true"
+            ></div>
+            <div
+              class="group/card relative flex h-full min-h-[280px] flex-col overflow-hidden rounded-3xl border border-white/80 bg-white/75 p-px shadow-[0_24px_60px_-20px_rgba(31,77,58,0.22)] backdrop-blur-md transition-all duration-300 ease-out hover:-translate-y-0.5 hover:border-tealsoft/25 hover:shadow-[0_28px_70px_-18px_rgba(31,77,58,0.28)] sm:min-h-[300px]"
+            >
+              <div class="absolute -right-16 -top-20 h-48 w-48 rounded-full bg-gradient-to-br from-mistgreen/90 to-transparent blur-2xl"></div>
+              <div class="absolute -bottom-20 -left-10 h-44 w-44 rounded-full bg-gradient-to-tr from-mistblue/90 to-transparent blur-2xl"></div>
+              <div class="absolute right-6 top-6 h-20 w-20 rounded-full border border-tealsoft/15" aria-hidden="true"></div>
+              <div class="absolute right-10 top-10 h-10 w-10 rounded-full border border-forest/10" aria-hidden="true"></div>
+
+              <div class="relative flex flex-1 flex-col p-7 sm:p-8 lg:p-9">
+                <div class="mb-6 flex flex-wrap items-start justify-between gap-4">
+                  <div
+                    class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-tealsoft to-forest text-white shadow-lg shadow-tealsoft/25 ring-4 ring-white/80"
+                    aria-hidden="true"
+                  >
+                    <i data-lucide="globe" class="lucide h-7 w-7" aria-hidden="true"></i>
+                  </div>
+                  <p
+                    class="section-eyebrow rounded-full border border-forest/15 bg-forest/[0.06] px-3 py-1.5 text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-forest"
+                  >
+                    Regional Focus
+                  </p>
+                </div>
+
+                <h3 class="mb-4 font-poppins text-xl font-semibold leading-snug text-forest sm:text-2xl">
+                  Conservation Through Coordinated Action
+                </h3>
+                <p class="text-sm leading-relaxed text-slate-700 sm:text-[0.9375rem] sm:leading-relaxed">
+                  Integrated planning, monitoring tools, and stakeholder collaboration support resilient ecosystems and informed environmental governance across Region 02.
+                </p>
+
+                <div class="mt-8 flex items-center gap-3 border-t border-slate-200/90 pt-6" aria-hidden="true">
+                  <span class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-mistgreen/70 text-tealsoft">
+                    <i data-lucide="leaf" class="lucide h-4 w-4" aria-hidden="true"></i>
+                  </span>
+                  <span class="h-px flex-1 bg-gradient-to-r from-tealsoft/35 via-slate-200/80 to-transparent"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="what-we-do"
+      class="relative isolate overflow-hidden border-t border-slate-200/70 bg-gradient-to-b from-mistgreen/25 via-stonebase to-stonebase py-20 sm:py-24"
+      aria-labelledby="what-we-do-heading"
+    >
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_45%_at_50%_-5%,rgba(46,125,115,0.12),transparent_55%)]"></div>
+      <div class="pointer-events-none absolute -right-24 top-1/3 h-72 w-72 rounded-full bg-mistblue/70 blur-3xl"></div>
+      <div class="pointer-events-none absolute -left-20 bottom-0 h-64 w-64 rounded-full bg-tealsoft/10 blur-3xl"></div>
+      <div
+        class="pointer-events-none absolute inset-0 opacity-[0.4] [background-image:radial-gradient(circle_at_1px_1px,rgba(31,77,58,0.055)_1px,transparent_0)] [background-size:28px_28px]"
+      ></div>
+
+      <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mb-12 max-w-2xl opacity-0 translate-y-4 transition-all duration-700 ease-out lg:mb-14" data-reveal>
+          <p
+            class="section-eyebrow mb-3 inline-flex items-center gap-2 rounded-full border border-tealsoft/20 bg-white/80 px-3 py-1.5 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-tealsoft shadow-sm backdrop-blur-sm"
+          >
+            <span class="h-1.5 w-1.5 rounded-full bg-tealsoft" aria-hidden="true"></span>
+            Core Functions
+          </p>
+          <h2 id="what-we-do-heading" class="font-poppins text-3xl font-bold tracking-tight text-forest sm:text-4xl lg:text-[2.35rem]">
+            What We Do
+          </h2>
+          <p class="mt-3 max-w-xl text-base leading-relaxed text-slate-700 sm:text-[1.05rem]">
+            A snapshot of PAMBCS services that support protected area governance and biodiversity outcomes.
+          </p>
+        </div>
+
+        <div class="grid gap-6 sm:grid-cols-2 xl:grid-cols-4 xl:items-stretch">
+          <article
+            class="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/85 bg-white/95 p-6 shadow-soft ring-1 ring-slate-200/40 opacity-0 translate-y-4 transition-all duration-500 ease-out hover:-translate-y-1.5 hover:border-tealsoft/35 hover:shadow-lg hover:shadow-forest/10 hover:ring-tealsoft/20 sm:p-7"
+            data-reveal
+            data-reveal-delay="60ms"
+          >
+            <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-tealsoft/80 via-moss/70 to-tealsoft/40 opacity-90 transition-opacity duration-300 group-hover:opacity-100"></div>
+            <div
+              class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-mistgreen to-mistgreen/70 text-forest shadow-inner transition-transform duration-300 ease-out group-hover:scale-105 group-hover:shadow-md"
+              aria-hidden="true"
+            >
+              <i data-lucide="radar" class="lucide lucide-feature" aria-hidden="true"></i>
+            </div>
+            <h3 class="font-poppins text-lg font-semibold leading-snug text-forest sm:text-xl">Protected Area Monitoring</h3>
+            <span class="my-4 block h-px w-10 bg-gradient-to-r from-tealsoft/50 to-transparent" aria-hidden="true"></span>
+            <p class="mt-auto text-sm leading-relaxed text-slate-600">
+              Tracks ecological conditions and compliance across priority protected sites.
+            </p>
+          </article>
+
+          <article
+            class="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/85 bg-white/95 p-6 shadow-soft ring-1 ring-slate-200/40 opacity-0 translate-y-4 transition-all duration-500 ease-out hover:-translate-y-1.5 hover:border-tealsoft/35 hover:shadow-lg hover:shadow-forest/10 hover:ring-tealsoft/20 sm:p-7"
+            data-reveal
+            data-reveal-delay="130ms"
+          >
+            <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-moss/80 via-tealsoft/70 to-mistblue/80 opacity-90 transition-opacity duration-300 group-hover:opacity-100"></div>
+            <div
+              class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-mistblue to-mistgreen/80 text-tealsoft shadow-inner transition-transform duration-300 ease-out group-hover:scale-105 group-hover:shadow-md"
+              aria-hidden="true"
+            >
+              <i data-lucide="leaf" class="lucide lucide-feature" aria-hidden="true"></i>
+            </div>
+            <h3 class="font-poppins text-lg font-semibold leading-snug text-forest sm:text-xl">Biodiversity Conservation</h3>
+            <span class="my-4 block h-px w-10 bg-gradient-to-r from-tealsoft/50 to-transparent" aria-hidden="true"></span>
+            <p class="mt-auto text-sm leading-relaxed text-slate-600">
+              Habitat protection and species-focused conservation for resilient ecosystems.
+            </p>
+          </article>
+
+          <article
+            class="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/85 bg-white/95 p-6 shadow-soft ring-1 ring-slate-200/40 opacity-0 translate-y-4 transition-all duration-500 ease-out hover:-translate-y-1.5 hover:border-tealsoft/35 hover:shadow-lg hover:shadow-forest/10 hover:ring-tealsoft/20 sm:p-7"
+            data-reveal
+            data-reveal-delay="200ms"
+          >
+            <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-sky-200/90 via-tealsoft/60 to-forest/50 opacity-90 transition-opacity duration-300 group-hover:opacity-100"></div>
+            <div
+              class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-mistblue/90 to-sky-100 text-forest shadow-inner transition-transform duration-300 ease-out group-hover:scale-105 group-hover:shadow-md"
+              aria-hidden="true"
+            >
+              <i data-lucide="database" class="lucide lucide-feature" aria-hidden="true"></i>
+            </div>
+            <h3 class="font-poppins text-lg font-semibold leading-snug text-forest sm:text-xl">Data &amp; Systems Management</h3>
+            <span class="my-4 block h-px w-10 bg-gradient-to-r from-tealsoft/50 to-transparent" aria-hidden="true"></span>
+            <p class="mt-auto text-sm leading-relaxed text-slate-600">
+              Reliable records and digital tools that support evidence-based decisions.
+            </p>
+          </article>
+
+          <article
+            class="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/85 bg-white/95 p-6 shadow-soft ring-1 ring-slate-200/40 opacity-0 translate-y-4 transition-all duration-500 ease-out hover:-translate-y-1.5 hover:border-tealsoft/35 hover:shadow-lg hover:shadow-forest/10 hover:ring-tealsoft/20 sm:p-7"
+            data-reveal
+            data-reveal-delay="270ms"
+          >
+            <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-forest/70 via-tealsoft/65 to-mistgreen/90 opacity-90 transition-opacity duration-300 group-hover:opacity-100"></div>
+            <div
+              class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-mistgreen/90 to-tealsoft/25 text-forest shadow-inner transition-transform duration-300 ease-out group-hover:scale-105 group-hover:shadow-md"
+              aria-hidden="true"
+            >
+              <i data-lucide="file-text" class="lucide lucide-feature" aria-hidden="true"></i>
+            </div>
+            <h3 class="font-poppins text-lg font-semibold leading-snug text-forest sm:text-xl">Policy Support</h3>
+            <span class="my-4 block h-px w-10 bg-gradient-to-r from-tealsoft/50 to-transparent" aria-hidden="true"></span>
+            <p class="mt-auto text-sm leading-relaxed text-slate-600">
+              Technical guidance for aligned, timely implementation of environmental policy.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="pa-showcase-section"
+      class="relative isolate overflow-hidden border-y border-slate-200/70 bg-gradient-to-b from-mistblue/35 via-white to-mistgreen/20 py-20 sm:py-24 lg:py-28"
+      aria-labelledby="pa-showcase-heading"
+    >
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_50%_-15%,rgba(46,125,115,0.12),transparent_60%)]"></div>
+      <div class="pointer-events-none absolute -left-32 top-24 h-80 w-80 rounded-full bg-mistgreen/45 blur-3xl"></div>
+      <div class="pointer-events-none absolute -right-24 bottom-16 h-72 w-72 rounded-full bg-sky-200/50 blur-3xl"></div>
+      <div
+        class="pointer-events-none absolute inset-0 opacity-[0.35] [background-image:radial-gradient(circle_at_1px_1px,rgba(31,77,58,0.05)_1px,transparent_0)] [background-size:40px_40px]"
+      ></div>
+
+      <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto mb-12 max-w-3xl text-center opacity-0 translate-y-4 transition-all duration-700 ease-out sm:mb-14 lg:mb-16" data-reveal>
+          <p
+            class="section-eyebrow mb-4 inline-flex items-center gap-2 rounded-full border border-tealsoft/25 bg-white/90 px-3 py-1.5 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-tealsoft shadow-sm backdrop-blur-sm"
+          >
+            <span class="h-1.5 w-1.5 rounded-full bg-tealsoft" aria-hidden="true"></span>
+            Regional Identity
+          </p>
+          <h2 id="pa-showcase-heading" class="font-poppins text-3xl font-bold tracking-tight text-forest sm:text-4xl lg:text-[2.35rem]">
+            Protected Areas Showcase
+          </h2>
+          <p class="mt-4 text-base leading-relaxed text-slate-700 sm:text-lg">
+            A visual snapshot of protected landscapes and seascapes stewarded across Region 02.
+          </p>
+        </div>
+
+        <div class="relative opacity-0 translate-y-4 transition-all duration-700 ease-out" data-reveal>
+          <div
+            id="pa-showcase-track"
+            class="flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth pb-4 pt-1 sm:gap-6 md:gap-7"
+            role="region"
+            aria-roledescription="carousel"
+            aria-label="Protected areas across Region 02"
+            tabindex="0"
+          >
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img
+                src="assets/images/carousel/1%20BATANES.jpg"
+                alt="Batanes protected area landscape"
+                class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95"
+                loading="lazy"
+                width="640"
+                height="853"
+              />
+              <div class="pointer-events-none absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full bg-black/30 text-white shadow-sm backdrop-blur-sm sm:right-4 sm:top-4" aria-hidden="true">
+                <i data-lucide="map-pin" class="lucide h-4 w-4 opacity-95"></i>
+              </div>
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Protected area
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">BPLS — Batanes Protected Landscapes And Seascapes </h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Island landscapes &amp; seascapes</p>
+              </div>
+            </article>
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img src="assets/images/carousel/2%20PENABLANCA.jpg" alt="Peñablanca protected area" class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95" loading="lazy" width="640" height="853" />
+              <div class="pointer-events-none absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full bg-black/30 text-white shadow-sm backdrop-blur-sm sm:right-4 sm:top-4" aria-hidden="true">
+                <i data-lucide="mountain" class="lucide h-4 w-4 opacity-95"></i>
+              </div>
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Protected area
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">PPLS — Peñablanca Protected Landscape and Seascape </h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Cagayan — ecologically significant</p>
+              </div>
+            </article>
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img src="assets/images/carousel/3%20MAGAPIT.jpg" alt="Magapit protected landscape" class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95" loading="lazy" width="640" height="853" />
+              <div class="pointer-events-none absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full bg-black/30 text-white shadow-sm backdrop-blur-sm sm:right-4 sm:top-4" aria-hidden="true">
+                <i data-lucide="tree-pine" class="lucide h-4 w-4 opacity-95"></i>
+              </div>
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Protected landscape
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">MPL — Magapit Protected Landscape</h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Cagayan — forest &amp; limestone hills</p>
+              </div>
+            </article>
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img src="assets/images/carousel/4%20PALAUI.jpg" alt="Palaui Island protected area" class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95" loading="lazy" width="640" height="853" />
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Protected area
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">PIPLS — Palaui Island Protected Landscape and Seascape</h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Coastal &amp; marine conservation</p>
+              </div>
+            </article>
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img src="assets/images/carousel/5%20BAUA%20AND%20WANGAG.jpg" alt="Baua and Wangag protected area" class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95" loading="lazy" width="640" height="853" />
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Protected area
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">BWFR / WWFR — Baua Watershed Forest Reserve / Wangag Watershed Forest Reserve</h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Isabela — watershed stewardship</p>
+              </div>
+            </article>
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img src="assets/images/carousel/6%20TUMAUINI.jpg" alt="Tumauini protected area" class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95" loading="lazy" width="640" height="853" />
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Protected area
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">TWNP — Tumauini Watershed Natural Park </h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Isabela — forests &amp; river corridors</p>
+              </div>
+            </article>
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img src="assets/images/carousel/7%20FUYOT.jpg" alt="Fuyot Hills Natural Monument" class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95" loading="lazy" width="640" height="853" />
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Natural monument
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">FSNP — Fuyot Spring National Park</h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Isabela — caves &amp; biodiversity</p>
+              </div>
+            </article>
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img src="assets/images/carousel/8%20NORTHERN%20SIERRA.jpg" alt="Northern Sierra Madre Natural Park" class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95" loading="lazy" width="640" height="853" />
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Natural park
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">NSMNP — Northern Sierra Madre Natural Park</h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Largest remaining rainforest</p>
+              </div>
+            </article>
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img src="assets/images/carousel/9%20SALINAS.jpg" alt="Salinas protected area" class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95" loading="lazy" width="640" height="853" />
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Protected area
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">SNM — Salinas Natural Monument </h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Nueva Vizcaya — forest reserves</p>
+              </div>
+            </article>
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img src="assets/images/carousel/10%20DUPAX.jpg" alt="Dupax protected area" class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95" loading="lazy" width="640" height="853" />
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Protected area
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">DWFR — Dupax Watershed Forest Reserve </h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Nueva Vizcaya — upland ecosystems</p>
+              </div>
+            </article>
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img src="assets/images/carousel/11CASECNAN.jpg" alt="Casecnan protected area" class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95" loading="lazy" width="640" height="853" />
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Protected area
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">CPL — Casecnan Protected Landscape </h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Watershed &amp; forest conservation</p>
+              </div>
+            </article>
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img src="assets/images/carousel/12%20BANGAN.jpg" alt="Bangan protected area" class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95" loading="lazy" width="640" height="853" />
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Protected area
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">BHNP — Bangan Hill National Park </h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Nueva Vizcaya — forest landscapes</p>
+              </div>
+            </article>
+            <article
+              class="group relative aspect-[3/4] w-[min(82vw,280px)] shrink-0 snap-center overflow-hidden rounded-3xl border border-white/30 bg-slate-900 shadow-[0_24px_50px_-18px_rgba(31,77,58,0.5)] ring-1 ring-black/10 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/25 hover:ring-tealsoft/35 sm:w-[min(100%,300px)] md:w-[min(100%,320px)] lg:w-[calc((100%-3.5rem)/3)]"
+            >
+              <img src="assets/images/carousel/13%20QUIRINO.jpg" alt="Quirino protected area" class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06] group-hover:brightness-95" loading="lazy" width="640" height="853" />
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest/98 via-forest/45 to-tealsoft/25 opacity-95 transition duration-500 group-hover:from-[rgb(17,59,44)] group-hover:via-forest/55"
+              ></div>
+              <div class="pointer-events-none absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/25"></div>
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent p-5 sm:p-6 text-white">
+                <p
+                  class="mb-2 inline-flex rounded-md border border-white/25 bg-slate-950/35 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-mistgreen backdrop-blur-md"
+                >
+                  Protected area
+                </p>
+                <h3 class="font-poppins text-xl font-semibold leading-snug sm:text-2xl">QPL — Quirino Protected Landscape</h3>
+                <p class="mt-1.5 text-sm leading-snug text-white/90">Biodiversity &amp; upland ecosystems</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="mt-8 flex flex-wrap items-center justify-between gap-4 border-t border-slate-200/70 pt-8">
+            <div id="pa-showcase-dots" class="flex min-h-[2.5rem] flex-wrap items-center gap-2" role="group" aria-label="Slide indicators"></div>
+            <div class="flex items-center gap-2">
+              <button
+                type="button"
+                id="pa-showcase-prev"
+                class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-200/90 bg-white text-forest shadow-soft transition-all duration-300 hover:-translate-y-0.5 hover:border-tealsoft/50 hover:bg-mistgreen/60 hover:text-tealsoft hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-forest focus-visible:ring-offset-2"
+                aria-label="Previous protected areas"
+              >
+                <i data-lucide="chevron-left" class="lucide lucide-carousel" aria-hidden="true"></i>
+              </button>
+              <button
+                type="button"
+                id="pa-showcase-next"
+                class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-200/90 bg-white text-forest shadow-soft transition-all duration-300 hover:-translate-y-0.5 hover:border-tealsoft/50 hover:bg-mistgreen/60 hover:text-tealsoft hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-forest focus-visible:ring-offset-2"
+                aria-label="Next protected areas"
+              >
+                <i data-lucide="chevron-right" class="lucide lucide-carousel" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="featured-resources"
+      class="relative isolate overflow-hidden border-y border-slate-200/70 bg-gradient-to-b from-white via-stonebase/90 to-mistgreen/15 py-20 sm:py-24 lg:py-28"
+      aria-labelledby="featured-resources-heading"
+    >
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_75%_45%_at_20%_0%,rgba(46,125,115,0.1),transparent_55%)]"></div>
+      <div class="pointer-events-none absolute -right-24 top-1/4 h-80 w-80 rounded-full bg-mistblue/50 blur-3xl"></div>
+      <div class="pointer-events-none absolute -left-16 bottom-0 h-72 w-72 rounded-full bg-tealsoft/8 blur-3xl"></div>
+      <div
+        class="pointer-events-none absolute inset-0 opacity-[0.4] [background-image:linear-gradient(rgba(31,77,58,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(31,77,58,0.035)_1px,transparent_1px)] [background-size:44px_44px]"
+      ></div>
+
+      <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mb-12 flex flex-col gap-8 lg:mb-14 lg:flex-row lg:items-end lg:justify-between lg:gap-10">
+          <div class="max-w-2xl space-y-5 opacity-0 translate-y-4 transition-all duration-700 ease-out" data-reveal>
+            <div class="flex flex-wrap items-center gap-3">
+              <p
+                class="section-eyebrow inline-flex items-center gap-2 rounded-full border border-tealsoft/25 bg-white/90 px-3 py-1.5 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-tealsoft shadow-sm backdrop-blur-sm"
+              >
+                <span class="h-1.5 w-1.5 shrink-0 rounded-full bg-tealsoft ring-2 ring-tealsoft/25" aria-hidden="true"></span>
+                Priority Access
+              </p>
+              <span class="hidden h-px flex-1 min-w-[2rem] max-w-[5rem] bg-gradient-to-r from-tealsoft/35 to-transparent sm:block" aria-hidden="true"></span>
+            </div>
+            <div class="space-y-3">
+              <h2 id="featured-resources-heading" class="font-poppins text-3xl font-bold leading-[1.12] tracking-tight text-forest sm:text-4xl lg:text-[2.35rem]">
+                Featured Resources
+              </h2>
+              <p class="max-w-[36rem] text-base leading-relaxed text-slate-700 md:text-[1.05rem] md:leading-relaxed">
+                Quick links to high-value tools and references commonly used by PAMBCS personnel and partners.
+              </p>
+            </div>
+          </div>
+          <div class="shrink-0 opacity-0 translate-y-4 transition-all duration-700 ease-out lg:pb-0.5" data-reveal data-reveal-delay="120ms">
+            <a
+              href="resources.html"
+              class="group inline-flex w-full items-center justify-center gap-2.5 rounded-full border border-forest/15 bg-white px-6 py-3.5 font-poppins text-sm font-semibold text-forest shadow-[0_12px_32px_-12px_rgba(31,77,58,0.22)] ring-1 ring-slate-200/60 transition-all duration-300 hover:-translate-y-0.5 hover:border-tealsoft/35 hover:bg-mistgreen/50 hover:shadow-[0_16px_36px_-14px_rgba(31,77,58,0.28)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-tealsoft focus-visible:ring-offset-2 sm:w-auto"
+            >
+              <span>View All Resources</span>
+              <i data-lucide="external-link" class="lucide lucide-btn lucide-shift text-forest" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="relative rounded-[1.75rem] border border-slate-200/80 bg-white/60 p-1 shadow-[0_24px_60px_-28px_rgba(31,77,58,0.18)] ring-1 ring-white/80 backdrop-blur-sm sm:p-2"
+          aria-label="Featured resource quick links"
+        >
+          <div class="pointer-events-none absolute inset-0 rounded-[1.65rem] bg-gradient-to-br from-mistgreen/30 via-transparent to-mistblue/25 opacity-80"></div>
+          <div class="relative grid gap-5 sm:grid-cols-2 sm:gap-6 xl:grid-cols-4 xl:gap-6">
+            <article
+              class="featured-resource-card group relative flex h-full min-h-[280px] flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-gradient-to-b from-white to-stonebase/40 shadow-[0_14px_40px_-18px_rgba(31,77,58,0.2)] ring-1 ring-slate-100/90 opacity-0 translate-y-4 transition-all duration-500 ease-out hover:-translate-y-1.5 hover:border-tealsoft/30 hover:shadow-[0_22px_48px_-16px_rgba(31,77,58,0.22)]"
+              data-reveal
+              data-reveal-delay="70ms"
+            >
+              <div
+                class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-tealsoft via-moss to-tealsoft/50"
+                aria-hidden="true"
+              ></div>
+              <div class="flex flex-1 flex-col p-6 sm:p-7">
+                <div class="mb-4 flex items-start justify-between gap-3">
+                  <span
+                    class="inline-flex items-center rounded-md border border-sky-200/90 bg-sky-50/90 px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-sky-800"
+                  >
+                    System
+                  </span>
+                </div>
+                <div
+                  class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-mistgreen to-mistgreen/70 text-tealsoft shadow-inner ring-4 ring-white/90 transition-transform duration-300 group-hover:scale-[1.03]"
+                  aria-hidden="true"
+                >
+                  <i data-lucide="bar-chart-3" class="lucide lucide-card" aria-hidden="true"></i>
+                </div>
+                <h3 class="font-poppins text-lg font-semibold leading-snug text-forest sm:text-xl">PAMBCS Monitoring 2026</h3>
+                <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">
+                  Access annual field monitoring targets and consolidated reporting tools.
+                </p>
+                <a
+                  href="resources.html"
+                  class="resource-open-link group/link mt-6 inline-flex items-center gap-2 self-start rounded-lg border border-tealsoft/25 bg-white/90 px-4 py-2.5 text-sm font-semibold text-tealsoft shadow-sm transition-all duration-300 hover:border-tealsoft/50 hover:bg-mistgreen/60 hover:text-forest focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-tealsoft focus-visible:ring-offset-2"
+                  aria-label="Open resource: PAMBCS Monitoring 2026"
+                >
+                  <span>Open Resource</span>
+                  <i data-lucide="arrow-right" class="lucide lucide-btn lucide-shift-end" aria-hidden="true"></i>
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="featured-resource-card group relative flex h-full min-h-[280px] flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-gradient-to-b from-white to-stonebase/40 shadow-[0_14px_40px_-18px_rgba(31,77,58,0.2)] ring-1 ring-slate-100/90 opacity-0 translate-y-4 transition-all duration-500 ease-out hover:-translate-y-1.5 hover:border-tealsoft/30 hover:shadow-[0_22px_48px_-16px_rgba(31,77,58,0.22)]"
+              data-reveal
+              data-reveal-delay="140ms"
+            >
+              <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-moss/90 via-tealsoft/80 to-sky-200/80" aria-hidden="true"></div>
+              <div class="flex flex-1 flex-col p-6 sm:p-7">
+                <div class="mb-4 flex items-start justify-between gap-3">
+                  <span
+                    class="inline-flex items-center rounded-md border border-emerald-200/90 bg-emerald-50/90 px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-emerald-900/90"
+                  >
+                    Document
+                  </span>
+                </div>
+                <div
+                  class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-mistblue to-mistgreen/80 text-tealsoft shadow-inner ring-4 ring-white/90 transition-transform duration-300 group-hover:scale-[1.03]"
+                  aria-hidden="true"
+                >
+                  <i data-lucide="file-text" class="lucide lucide-card" aria-hidden="true"></i>
+                </div>
+                <h3 class="font-poppins text-lg font-semibold leading-snug text-forest sm:text-xl">PA Policies and Guidelines</h3>
+                <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">
+                  Review updated directives and policy references for protected areas.
+                </p>
+                <a
+                  href="resources.html"
+                  class="resource-open-link group/link mt-6 inline-flex items-center gap-2 self-start rounded-lg border border-tealsoft/25 bg-white/90 px-4 py-2.5 text-sm font-semibold text-tealsoft shadow-sm transition-all duration-300 hover:border-tealsoft/50 hover:bg-mistgreen/60 hover:text-forest focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-tealsoft focus-visible:ring-offset-2"
+                  aria-label="Open resource: PA Policies and Guidelines"
+                >
+                  <span>Open Resource</span>
+                  <i data-lucide="arrow-right" class="lucide lucide-btn lucide-shift-end" aria-hidden="true"></i>
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="featured-resource-card group relative flex h-full min-h-[280px] flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-gradient-to-b from-white to-stonebase/40 shadow-[0_14px_40px_-18px_rgba(31,77,58,0.2)] ring-1 ring-slate-100/90 opacity-0 translate-y-4 transition-all duration-500 ease-out hover:-translate-y-1.5 hover:border-tealsoft/30 hover:shadow-[0_22px_48px_-16px_rgba(31,77,58,0.22)]"
+              data-reveal
+              data-reveal-delay="210ms"
+            >
+              <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-forest/70 via-tealsoft/70 to-mistgreen/80" aria-hidden="true"></div>
+              <div class="flex flex-1 flex-col p-6 sm:p-7">
+                <div class="mb-4 flex items-start justify-between gap-3">
+                  <span
+                    class="inline-flex items-center rounded-md border border-emerald-200/90 bg-emerald-50/90 px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-emerald-900/90"
+                  >
+                    Document
+                  </span>
+                </div>
+                <div
+                  class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-tealsoft/20 to-mistblue/90 text-forest shadow-inner ring-4 ring-white/90 transition-transform duration-300 group-hover:scale-[1.03]"
+                  aria-hidden="true"
+                >
+                  <i data-lucide="book-open" class="lucide lucide-card" aria-hidden="true"></i>
+                </div>
+                <h3 class="font-poppins text-lg font-semibold leading-snug text-forest sm:text-xl">Manual of Authorities</h3>
+                <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">
+                  Reference administrative authorities and approved decision workflows.
+                </p>
+                <a
+                  href="resources.html"
+                  class="resource-open-link group/link mt-6 inline-flex items-center gap-2 self-start rounded-lg border border-tealsoft/25 bg-white/90 px-4 py-2.5 text-sm font-semibold text-tealsoft shadow-sm transition-all duration-300 hover:border-tealsoft/50 hover:bg-mistgreen/60 hover:text-forest focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-tealsoft focus-visible:ring-offset-2"
+                  aria-label="Open resource: Manual of Authorities"
+                >
+                  <span>Open Resource</span>
+                  <i data-lucide="arrow-right" class="lucide lucide-btn lucide-shift-end" aria-hidden="true"></i>
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="featured-resource-card group relative flex h-full min-h-[280px] flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-gradient-to-b from-white to-stonebase/40 shadow-[0_14px_40px_-18px_rgba(31,77,58,0.2)] ring-1 ring-slate-100/90 opacity-0 translate-y-4 transition-all duration-500 ease-out hover:-translate-y-1.5 hover:border-tealsoft/30 hover:shadow-[0_22px_48px_-16px_rgba(31,77,58,0.22)]"
+              data-reveal
+              data-reveal-delay="280ms"
+            >
+              <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-sky-300/90 via-tealsoft to-moss/70" aria-hidden="true"></div>
+              <div class="flex flex-1 flex-col p-6 sm:p-7">
+                <div class="mb-4 flex items-start justify-between gap-3">
+                  <span
+                    class="inline-flex items-center rounded-md border border-amber-200/90 bg-amber-50/90 px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-amber-900/85"
+                  >
+                    Schedule
+                  </span>
+                </div>
+                <div
+                  class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-mistgreen/90 to-tealsoft/30 text-forest shadow-inner ring-4 ring-white/90 transition-transform duration-300 group-hover:scale-[1.03]"
+                  aria-hidden="true"
+                >
+                  <i data-lucide="calendar" class="lucide lucide-card" aria-hidden="true"></i>
+                </div>
+                <h3 class="font-poppins text-lg font-semibold leading-snug text-forest sm:text-xl">2026 PAMBCS Schedules</h3>
+                <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">
+                  View operational timelines, milestones, and coordination schedules.
+                </p>
+                <a
+                  href="resources.html"
+                  class="resource-open-link group/link mt-6 inline-flex items-center gap-2 self-start rounded-lg border border-tealsoft/25 bg-white/90 px-4 py-2.5 text-sm font-semibold text-tealsoft shadow-sm transition-all duration-300 hover:border-tealsoft/50 hover:bg-mistgreen/60 hover:text-forest focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-tealsoft focus-visible:ring-offset-2"
+                  aria-label="Open resource: 2026 PAMBCS Schedules"
+                >
+                  <span>View schedules</span>
+                  <i data-lucide="external-link" class="lucide lucide-btn lucide-shift-end" aria-hidden="true"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="personnel-preview"
+      class="relative isolate overflow-hidden border-b border-slate-200/70 bg-gradient-to-b from-mistgreen/20 via-stonebase to-stonebase py-20 sm:py-24 lg:py-28"
+      aria-labelledby="personnel-preview-heading"
+    >
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_80%_-10%,rgba(46,125,115,0.09),transparent_55%)]"></div>
+      <div class="pointer-events-none absolute -left-20 top-1/3 h-80 w-80 rounded-full bg-mistblue/45 blur-3xl"></div>
+      <div
+        class="pointer-events-none absolute inset-0 opacity-[0.35] [background-image:radial-gradient(circle_at_1px_1px,rgba(31,77,58,0.045)_1px,transparent_0)] [background-size:32px_32px]"
+      ></div>
+
+      <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mb-12 flex flex-col gap-8 lg:mb-14 lg:flex-row lg:items-end lg:justify-between lg:gap-10">
+          <div class="max-w-2xl space-y-5 opacity-0 translate-y-4 transition-all duration-700 ease-out" data-reveal>
+            <div class="flex flex-wrap items-center gap-3">
+              <p
+                class="section-eyebrow inline-flex items-center gap-2 rounded-full border border-tealsoft/25 bg-white/90 px-3 py-1.5 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-tealsoft shadow-sm backdrop-blur-sm"
+              >
+                <span class="h-1.5 w-1.5 shrink-0 rounded-full bg-tealsoft ring-2 ring-tealsoft/25" aria-hidden="true"></span>
+                Our Team
+              </p>
+              <span class="hidden h-px flex-1 min-w-[2rem] max-w-[5rem] bg-gradient-to-r from-tealsoft/35 to-transparent sm:block" aria-hidden="true"></span>
+            </div>
+            <div class="space-y-3">
+              <h2 id="personnel-preview-heading" class="font-poppins text-3xl font-bold leading-[1.12] tracking-tight text-forest sm:text-4xl lg:text-[2.35rem]">
+                Personnel Preview
+              </h2>
+              <p class="max-w-[36rem] text-base leading-relaxed text-slate-700 md:text-[1.05rem] md:leading-relaxed">
+                Meet a selection of PAMBCS Region 02 personnel. Visit About PAMBCS for the full directory.
+              </p>
+            </div>
+          </div>
+          <div class="shrink-0 opacity-0 translate-y-4 transition-all duration-700 ease-out lg:pb-0.5" data-reveal data-reveal-delay="120ms">
+            <a
+              href="about.html#personnel-directory"
+              class="group relative inline-flex w-full items-center justify-center gap-2.5 overflow-hidden rounded-full border border-forest/15 bg-white px-7 py-3.5 font-poppins text-sm font-semibold text-forest shadow-[0_12px_32px_-12px_rgba(31,77,58,0.22)] ring-1 ring-slate-200/60 transition-all duration-300 hover:-translate-y-0.5 hover:border-tealsoft/35 hover:bg-mistgreen/55 hover:shadow-[0_16px_36px_-14px_rgba(31,77,58,0.26)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-tealsoft focus-visible:ring-offset-2 sm:w-auto"
+            >
+              <span class="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-500 group-hover:translate-x-full"></span>
+              <span class="relative">View Full Team</span>
+              <i data-lucide="arrow-right" class="lucide lucide-btn relative lucide-shift" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="grid gap-6 sm:grid-cols-2 sm:gap-7 lg:grid-cols-4 lg:gap-6">
+          <article
+            class="personnel-card group relative flex h-full min-h-[300px] flex-col overflow-hidden rounded-2xl border border-slate-200/85 bg-white/95 shadow-[0_16px_44px_-22px_rgba(31,77,58,0.2)] ring-1 ring-slate-100/80 opacity-0 translate-y-4 transition-all duration-500 ease-out before:pointer-events-none before:absolute before:inset-0 before:rounded-2xl before:bg-gradient-to-b before:from-white before:to-mistgreen/25 before:opacity-90 before:content-[''] hover:-translate-y-1.5 hover:border-tealsoft/25 hover:shadow-[0_22px_50px_-18px_rgba(31,77,58,0.22)] hover:ring-tealsoft/15"
+            data-reveal
+            data-reveal-delay="70ms"
+          >
+            <div class="relative z-[1] flex flex-1 flex-col px-6 pb-7 pt-8 text-center sm:px-7">
+              <div class="personnel-preview-avatar relative mx-auto mb-5">
+                <div
+                  class="absolute -inset-1 rounded-full bg-gradient-to-br from-tealsoft/40 via-mistgreen/50 to-sky-200/60 opacity-80 blur-[1px]"
+                  aria-hidden="true"
+                ></div>
+                <div
+                  class="personnel-preview-face relative mx-auto flex h-[7.25rem] w-[7.25rem] shrink-0 items-center justify-center overflow-hidden rounded-full border-[3px] border-white bg-gradient-to-br from-mistgreen to-mistblue shadow-inner ring-4 ring-tealsoft/20"
+                  role="img"
+                  aria-label="Krizzle Ann C. Nool, initials KAN"
+                >
+                  <img
+                    src="assets/images/profile/krizzle.jpg"
+                    alt=""
+                    width="116"
+                    height="116"
+                    class="personnel-preview-photo opacity-0 transition-opacity duration-300"
+                    loading="lazy"
+                    data-personnel-preview-img
+                  />
+                  <span class="personnel-preview-initials font-poppins text-2xl font-bold tracking-tight text-forest/85 transition-opacity duration-300 sm:text-[1.65rem]" aria-hidden="true">KAN</span>
+                </div>
+              </div>
+              <p class="mb-3 inline-flex items-center justify-center self-center rounded-full border border-slate-200/90 bg-slate-50/90 px-2.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-slate-600">
+                PAMBCS R02
+              </p>
+              <h3 class="font-poppins text-lg font-semibold leading-snug text-forest sm:text-xl">Krizzle Ann C. Nool</h3>
+              <p class="mt-2 text-sm font-medium leading-snug text-slate-600">Chief, PAMBCS</p>
+            </div>
+          </article>
+
+          <article
+            class="personnel-card group relative flex h-full min-h-[300px] flex-col overflow-hidden rounded-2xl border border-slate-200/85 bg-white/95 shadow-[0_16px_44px_-22px_rgba(31,77,58,0.2)] ring-1 ring-slate-100/80 opacity-0 translate-y-4 transition-all duration-500 ease-out before:pointer-events-none before:absolute before:inset-0 before:rounded-2xl before:bg-gradient-to-b before:from-white before:to-mistblue/20 before:opacity-90 before:content-[''] hover:-translate-y-1.5 hover:border-tealsoft/25 hover:shadow-[0_22px_50px_-18px_rgba(31,77,58,0.22)] hover:ring-tealsoft/15"
+            data-reveal
+            data-reveal-delay="140ms"
+          >
+            <div class="relative z-[1] flex flex-1 flex-col px-6 pb-7 pt-8 text-center sm:px-7">
+              <div class="personnel-preview-avatar relative mx-auto mb-5">
+                <div
+                  class="absolute -inset-1 rounded-full bg-gradient-to-br from-sky-200/70 via-tealsoft/35 to-mistgreen/50 opacity-80 blur-[1px]"
+                  aria-hidden="true"
+                ></div>
+                <div
+                  class="personnel-preview-face relative mx-auto flex h-[7.25rem] w-[7.25rem] shrink-0 items-center justify-center overflow-hidden rounded-full border-[3px] border-white bg-gradient-to-br from-mistblue to-mistgreen shadow-inner ring-4 ring-tealsoft/20"
+                  role="img"
+                  aria-label="Leonardo N. Odon Jr., initials LNO"
+                >
+                  <img
+                    src="assets/images/personnel/leonardo-n-odon-jr.jpg"
+                    alt=""
+                    width="116"
+                    height="116"
+                    class="personnel-preview-photo opacity-0 transition-opacity duration-300"
+                    loading="lazy"
+                    data-personnel-preview-img
+                  />
+                  <span class="personnel-preview-initials font-poppins text-2xl font-bold tracking-tight text-forest/85 transition-opacity duration-300 sm:text-[1.65rem]" aria-hidden="true">LNO</span>
+                </div>
+              </div>
+              <p class="mb-3 inline-flex items-center justify-center self-center rounded-full border border-slate-200/90 bg-slate-50/90 px-2.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-slate-600">
+                PAMBCS R02
+              </p>
+              <h3 class="font-poppins text-lg font-semibold leading-snug text-forest sm:text-xl">Leonardo N. Odon Jr.</h3>
+              <p class="mt-2 text-sm font-medium leading-snug text-slate-600">Development Management Officer II</p>
+            </div>
+          </article>
+
+          <article
+            class="personnel-card group relative flex h-full min-h-[300px] flex-col overflow-hidden rounded-2xl border border-slate-200/85 bg-white/95 shadow-[0_16px_44px_-22px_rgba(31,77,58,0.2)] ring-1 ring-slate-100/80 opacity-0 translate-y-4 transition-all duration-500 ease-out before:pointer-events-none before:absolute before:inset-0 before:rounded-2xl before:bg-gradient-to-b before:from-white before:to-mistgreen/25 before:opacity-90 before:content-[''] hover:-translate-y-1.5 hover:border-tealsoft/25 hover:shadow-[0_22px_50px_-18px_rgba(31,77,58,0.22)] hover:ring-tealsoft/15"
+            data-reveal
+            data-reveal-delay="210ms"
+          >
+            <div class="relative z-[1] flex flex-1 flex-col px-6 pb-7 pt-8 text-center sm:px-7">
+              <div class="personnel-preview-avatar relative mx-auto mb-5">
+                <div
+                  class="absolute -inset-1 rounded-full bg-gradient-to-br from-tealsoft/40 via-mistgreen/50 to-sky-200/60 opacity-80 blur-[1px]"
+                  aria-hidden="true"
+                ></div>
+                <div
+                  class="personnel-preview-face relative mx-auto flex h-[7.25rem] w-[7.25rem] shrink-0 items-center justify-center overflow-hidden rounded-full border-[3px] border-white bg-gradient-to-br from-mistgreen to-mistblue shadow-inner ring-4 ring-tealsoft/20"
+                  role="img"
+                  aria-label="Jasmine E. Gannaban, initials JEG"
+                >
+                  <img
+                    src="assets/images/personnel/jasmine-e-gannaban.jpg"
+                    alt=""
+                    width="116"
+                    height="116"
+                    class="personnel-preview-photo opacity-0 transition-opacity duration-300"
+                    loading="lazy"
+                    data-personnel-preview-img
+                  />
+                  <span class="personnel-preview-initials font-poppins text-2xl font-bold tracking-tight text-forest/85 transition-opacity duration-300 sm:text-[1.65rem]" aria-hidden="true">JEG</span>
+                </div>
+              </div>
+              <p class="mb-3 inline-flex items-center justify-center self-center rounded-full border border-slate-200/90 bg-slate-50/90 px-2.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-slate-600">
+                PAMBCS R02
+              </p>
+              <h3 class="font-poppins text-lg font-semibold leading-snug text-forest sm:text-xl">Jasmine E. Gannaban</h3>
+              <p class="mt-2 text-sm font-medium leading-snug text-slate-600">Development Management Officer I</p>
+            </div>
+          </article>
+
+          <article
+            class="personnel-card group relative flex h-full min-h-[300px] flex-col overflow-hidden rounded-2xl border border-slate-200/85 bg-white/95 shadow-[0_16px_44px_-22px_rgba(31,77,58,0.2)] ring-1 ring-slate-100/80 opacity-0 translate-y-4 transition-all duration-500 ease-out before:pointer-events-none before:absolute before:inset-0 before:rounded-2xl before:bg-gradient-to-b before:from-white before:to-mistblue/20 before:opacity-90 before:content-[''] hover:-translate-y-1.5 hover:border-tealsoft/25 hover:shadow-[0_22px_50px_-18px_rgba(31,77,58,0.22)] hover:ring-tealsoft/15"
+            data-reveal
+            data-reveal-delay="280ms"
+          >
+            <div class="relative z-[1] flex flex-1 flex-col px-6 pb-7 pt-8 text-center sm:px-7">
+              <div class="personnel-preview-avatar relative mx-auto mb-5">
+                <div
+                  class="absolute -inset-1 rounded-full bg-gradient-to-br from-sky-200/70 via-tealsoft/35 to-mistgreen/50 opacity-80 blur-[1px]"
+                  aria-hidden="true"
+                ></div>
+                <div
+                  class="personnel-preview-face relative mx-auto flex h-[7.25rem] w-[7.25rem] shrink-0 items-center justify-center overflow-hidden rounded-full border-[3px] border-white bg-gradient-to-br from-mistblue to-mistgreen shadow-inner ring-4 ring-tealsoft/20"
+                  role="img"
+                  aria-label="Engelbert R. Ilac, initials ERI"
+                >
+                  <img
+                    src="assets/images/personnel/engelbert-r-ilac.jpg"
+                    alt=""
+                    width="116"
+                    height="116"
+                    class="personnel-preview-photo opacity-0 transition-opacity duration-300"
+                    loading="lazy"
+                    data-personnel-preview-img
+                  />
+                  <span class="personnel-preview-initials font-poppins text-2xl font-bold tracking-tight text-forest/85 transition-opacity duration-300 sm:text-[1.65rem]" aria-hidden="true">ERI</span>
+                </div>
+              </div>
+              <p class="mb-3 inline-flex items-center justify-center self-center rounded-full border border-slate-200/90 bg-slate-50/90 px-2.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-slate-600">
+                PAMBCS R02
+              </p>
+              <h3 class="font-poppins text-lg font-semibold leading-snug text-forest sm:text-xl">Engelbert R. Ilac</h3>
+              <p class="mt-2 text-sm font-medium leading-snug text-slate-600">Database Management Officer</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    </div>
+
+  </main>
+
+  <div
+    id="pa-image-modal"
+    class="fixed inset-0 z-[70] flex items-center justify-center bg-slate-950/80 px-3 py-3 opacity-0 pointer-events-none transition-opacity duration-300 backdrop-blur-sm sm:px-4"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Protected area image popup"
+    aria-hidden="true"
+  >
+    <div class="absolute inset-0" data-pa-modal-close="overlay" aria-hidden="true"></div>
+    <div class="relative z-[1] w-full max-w-[98vw] scale-95 transition-transform duration-300">
+      <button
+        type="button"
+        id="pa-modal-close-btn"
+        class="absolute right-3 top-3 z-[3] inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/30 bg-black/65 text-white shadow-lg transition hover:bg-black/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 sm:right-4 sm:top-4"
+        aria-label="Close image popup"
+      >
+        <span aria-hidden="true" class="text-3xl leading-none">&times;</span>
+      </button>
+      <figure class="overflow-hidden rounded-xl">
+        <img
+          id="pa-modal-image"
+          src=""
+          alt=""
+          class="h-auto max-h-[96vh] w-full object-contain"
+        />
+      </figure>
+    </div>
+  </div>
+
+  <footer class="border-t border-slate-200 bg-forest text-slate-300">
+    <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between sm:gap-8">
+        <div class="max-w-md space-y-1">
+          <p class="text-sm font-semibold tracking-wide text-white">PAMBCS Region 02</p>
+          <p class="text-xs leading-snug text-slate-400">Protected Area Management and Biodiversity Conservation Section</p>
+          <p class="text-xs text-slate-500">DENR Region 02</p>
+        </div>
+        <nav aria-label="Footer quick links" class="sm:shrink-0 sm:text-right">
+          <p class="mb-2 text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-slate-500">Quick links</p>
+          <ul class="flex flex-wrap gap-x-5 gap-y-2 text-sm sm:justify-end">
+            <li>
+              <a href="index.html" aria-current="page" class="inline-flex items-center gap-2 text-slate-200 transition hover:text-white hover:underline underline-offset-4 aria-[current=page]:text-white">
+                <i data-lucide="home" class="lucide lucide-footer" aria-hidden="true"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="about.html" class="inline-flex items-center gap-2 text-slate-200 transition hover:text-white hover:underline underline-offset-4 aria-[current=page]:text-white">
+                <i data-lucide="info" class="lucide lucide-footer" aria-hidden="true"></i>
+                <span>About PAMBCS</span>
+              </a>
+            </li>
+            <li>
+              <a href="resources.html" class="inline-flex items-center gap-2 text-slate-200 transition hover:text-white hover:underline underline-offset-4 aria-[current=page]:text-white">
+                <i data-lucide="layout-dashboard" class="lucide lucide-footer" aria-hidden="true"></i>
+                <span>Resource Portal</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="mt-4 border-t border-white/10 pt-3 text-xs text-slate-500">
+        <p>&copy; 2026 PAMBCS Region 02. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <script src="js/homepage.js"></script>
+</body>
+</html>

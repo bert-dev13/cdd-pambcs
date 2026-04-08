@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About PAMBCS | PAMBCS Region 02</title>
+  <meta name="description" content="Official profile of PAMBCS Region 02: overview, mandate, core functions, and personnel directory." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: "#1f4d3a",
+            moss: "#3b7a57",
+            tealsoft: "#2e7d73",
+            mistgreen: "#e8f4ed",
+            mistblue: "#e9f3f7",
+            stonebase: "#f5f7f6"
+          },
+          fontFamily: {
+            nunito: ["Nunito", "sans-serif"],
+            bebas: ["Bebas Neue", "sans-serif"],
+            poppins: ["Poppins", "sans-serif"]
+          },
+          boxShadow: {
+            soft: "0 10px 25px -12px rgba(31,77,58,0.25)"
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/lucide-icons.css" />
+</head>
+<body class="bg-stonebase font-nunito text-slate-800 antialiased scroll-smooth">
+  <header id="site-header" class="sticky top-0 z-50 border-b border-slate-200/90 bg-white/90 transition-all duration-300 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
+      <a href="index.html" class="group inline-flex items-center gap-3 rounded-md px-1 py-1">
+        <span class="inline-flex items-center gap-2">
+          <img src="assets/images/denr-logo.png" alt="DENR Logo" class="h-10 w-auto object-contain" />
+          <img src="assets/images/Bagong_Pilipinas_logo.png" alt="Bagong Pilipinas Logo" class="h-10 w-auto object-contain" />
+        </span>
+        <span class="site-brand text-base font-semibold tracking-wide text-forest sm:text-lg">PAMBCS Region 02</span>
+      </a>
+      <button id="menu-toggle" type="button" class="rounded-md border border-transparent p-2 text-forest transition hover:border-mistgreen hover:bg-mistgreen/60 md:hidden" aria-label="Toggle navigation menu" aria-expanded="false">
+        <i data-lucide="menu" class="lucide h-6 w-6" aria-hidden="true"></i>
+      </button>
+      <nav class="hidden items-center gap-1 md:flex" aria-label="Primary">
+        <a href="index.html" class="group relative inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium text-slate-700 transition-colors duration-200 hover:text-tealsoft after:absolute after:inset-x-4 after:-bottom-0.5 after:h-0.5 after:origin-left after:scale-x-0 after:rounded-full after:bg-tealsoft after:transition-transform after:duration-200 after:content-[''] hover:after:scale-x-100">
+          <i data-lucide="home" class="lucide lucide-nav" aria-hidden="true"></i>
+          <span>Home</span>
+        </a>
+        <a href="about.html" aria-current="page" class="group relative inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium text-forest transition-colors duration-200 after:absolute after:inset-x-4 after:-bottom-0.5 after:h-0.5 after:rounded-full after:bg-forest after:content-['']">
+          <i data-lucide="info" class="lucide lucide-nav" aria-hidden="true"></i>
+          <span>About PAMBCS</span>
+        </a>
+        <a href="resources.html" class="group relative inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium text-slate-700 transition-colors duration-200 hover:text-tealsoft after:absolute after:inset-x-4 after:-bottom-0.5 after:h-0.5 after:origin-left after:scale-x-0 after:rounded-full after:bg-tealsoft after:transition-transform after:duration-200 after:content-[''] hover:after:scale-x-100">
+          <i data-lucide="layout-dashboard" class="lucide lucide-nav" aria-hidden="true"></i>
+          <span>Resource Portal</span>
+        </a>
+      </nav>
+    </div>
+    <nav id="mobile-menu" class="max-h-0 overflow-hidden border-t border-transparent bg-white px-4 opacity-0 transition-all duration-300 md:hidden pointer-events-none">
+      <div class="flex flex-col gap-1 py-3 text-sm font-medium">
+        <a href="index.html" class="inline-flex items-center gap-2 rounded-md px-3 py-2.5 text-slate-700 transition-colors hover:bg-mistgreen/70 hover:text-forest">
+          <i data-lucide="home" class="lucide lucide-nav" aria-hidden="true"></i>
+          <span>Home</span>
+        </a>
+        <a href="about.html" aria-current="page" class="inline-flex items-center gap-2 rounded-md border border-mistgreen bg-mistgreen/70 px-3 py-2.5 text-forest">
+          <i data-lucide="info" class="lucide lucide-nav" aria-hidden="true"></i>
+          <span>About PAMBCS</span>
+        </a>
+        <a href="resources.html" class="inline-flex items-center gap-2 rounded-md px-3 py-2.5 text-slate-700 transition-colors hover:bg-mistgreen/70 hover:text-forest">
+          <i data-lucide="layout-dashboard" class="lucide lucide-nav" aria-hidden="true"></i>
+          <span>Resource Portal</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="border-b border-emerald-950/40 bg-gradient-to-b from-forest to-emerald-950" aria-labelledby="about-pambcs-heading">
+      <div class="mx-auto max-w-7xl px-4 py-7 sm:px-6 sm:py-8 lg:px-8">
+        <p class="text-sm font-medium tracking-wide text-emerald-50">PAMBCS Region 02</p>
+        <div class="mt-2 flex items-center gap-2.5">
+          <img src="assets/images/denr-logo.png" alt="DENR Logo" class="h-8 w-auto shrink-0 object-contain sm:h-9" />
+          <i data-lucide="info" class="lucide h-4 w-4 shrink-0 text-white [&>svg]:stroke-white" aria-hidden="true"></i>
+          <h1 id="about-pambcs-heading" class="font-bebas text-3xl font-normal leading-none tracking-wide text-white sm:text-4xl">About PAMBCS</h1>
+        </div>
+        <p class="mt-3 max-w-3xl text-sm leading-relaxed text-white sm:mt-4 sm:text-[0.9375rem]">
+          Official profile of PAMBCS Region 02—mandate, responsibilities, core functions, and personnel.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="about-profile-section about-overview-section border-b border-slate-200/80 bg-gradient-to-b from-white via-mistgreen/35 to-mistblue/45 py-14 sm:py-16 lg:py-[4.25rem]"
+      aria-labelledby="about-overview-heading"
+    >
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <header
+          class="about-profile-section-header about-overview-intro mx-auto max-w-3xl text-center opacity-0 translate-y-4 transition-all duration-700 ease-out"
+          data-reveal
+          data-reveal-delay="0ms"
+        >
+          <p class="about-profile-eyebrow">Overview</p>
+          <h2 id="about-overview-heading" class="about-profile-title about-overview-main-heading">PAMBCS Region 02 Overview</h2>
+        </header>
+        <div class="about-overview-grid mx-auto mt-10 max-w-6xl lg:mt-12">
+          <article
+            class="about-overview-card group rounded-xl opacity-0 translate-y-4 transition-all duration-500 ease-out"
+            data-reveal
+            data-reveal-delay="70ms"
+          >
+            <div class="about-overview-card-inner">
+              <div class="about-overview-card-icon" aria-hidden="true">
+                <i data-lucide="building-2" class="lucide h-5 w-5"></i>
+              </div>
+              <h3 class="about-overview-card-title">What PAMBCS Region 02 Is</h3>
+              <p class="about-overview-card-text">
+                The Protected Area Management and Biodiversity Conservation Section (PAMBCS) is the DENR Regional Office II unit that leads technical work on protected areas and biodiversity—translating national law and policy into regional action.
+              </p>
+            </div>
+          </article>
+          <article
+            class="about-overview-card group rounded-xl opacity-0 translate-y-4 transition-all duration-500 ease-out"
+            data-reveal
+            data-reveal-delay="130ms"
+          >
+            <div class="about-overview-card-inner">
+              <div class="about-overview-card-icon" aria-hidden="true">
+                <i data-lucide="map-pinned" class="lucide h-5 w-5"></i>
+              </div>
+              <h3 class="about-overview-card-title">Role within Region 02</h3>
+              <p class="about-overview-card-text">
+                PAMBCS Region 02 works with field offices, protected area management boards, and partners to align conservation priorities, standards, and reporting across Cagayan Valley.
+              </p>
+            </div>
+          </article>
+          <article
+            class="about-overview-card group rounded-xl opacity-0 translate-y-4 transition-all duration-500 ease-out"
+            data-reveal
+            data-reveal-delay="190ms"
+          >
+            <div class="about-overview-card-inner">
+              <div class="about-overview-card-icon" aria-hidden="true">
+                <i data-lucide="shield-check" class="lucide h-5 w-5"></i>
+              </div>
+              <h3 class="about-overview-card-title">Responsibility</h3>
+              <p class="about-overview-card-text">
+                The section is responsible for strengthening protected area management and documenting biodiversity outcomes so that decisions in Region 02 are evidence-based, coordinated, and accountable.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="about-profile-section about-mandate-section border-b border-slate-200/80 bg-gradient-to-b from-white via-mistgreen/30 to-mistblue/40 py-14 sm:py-16 lg:py-[4.25rem]"
+      aria-labelledby="about-mandate-heading"
+    >
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <header
+          class="about-profile-section-header about-mandate-intro mx-auto max-w-3xl text-center opacity-0 translate-y-4 transition-all duration-700 ease-out"
+          data-reveal
+          data-reveal-delay="0ms"
+        >
+          <p class="about-profile-eyebrow">Mandate</p>
+          <h2 id="about-mandate-heading" class="about-profile-title about-mandate-main-heading">Mandate and Key Responsibilities</h2>
+          <p class="about-profile-lede">
+            Core responsibilities of PAMBCS Region 02 in protected area management, biodiversity conservation, and regional coordination.
+          </p>
+        </header>
+        <div class="about-mandate-grid mx-auto mt-10 max-w-6xl lg:mt-12">
+          <article
+            class="about-mandate-card about-mandate-card--bio group rounded-xl opacity-0 translate-y-4 transition-all duration-500 ease-out"
+            data-reveal
+            data-reveal-delay="50ms"
+          >
+            <div class="about-mandate-card-inner">
+              <div class="about-mandate-icon" aria-hidden="true">
+                <i data-lucide="leaf" class="lucide h-5 w-5"></i>
+              </div>
+              <h3 class="about-mandate-title">Biodiversity Conservation Programs</h3>
+              <p class="about-mandate-desc">
+                Implement and monitor conservation initiatives, targets, and technical standards across Region 02.
+              </p>
+            </div>
+          </article>
+          <article
+            class="about-mandate-card about-mandate-card--governance group rounded-xl opacity-0 translate-y-4 transition-all duration-500 ease-out"
+            data-reveal
+            data-reveal-delay="110ms"
+          >
+            <div class="about-mandate-card-inner">
+              <div class="about-mandate-icon" aria-hidden="true">
+                <i data-lucide="landmark" class="lucide h-5 w-5"></i>
+              </div>
+              <h3 class="about-mandate-title">Protected Area Governance</h3>
+              <p class="about-mandate-desc">
+                Support PAMB decisions, management planning, and site-level governance in line with applicable laws.
+              </p>
+            </div>
+          </article>
+          <article
+            class="about-mandate-card about-mandate-card--monitoring group rounded-xl opacity-0 translate-y-4 transition-all duration-500 ease-out"
+            data-reveal
+            data-reveal-delay="170ms"
+          >
+            <div class="about-mandate-card-inner">
+              <div class="about-mandate-icon" aria-hidden="true">
+                <i data-lucide="clipboard-list" class="lucide h-5 w-5"></i>
+              </div>
+              <h3 class="about-mandate-title">Environmental Monitoring &amp; Documentation</h3>
+              <p class="about-mandate-desc">
+                Collect, validate, and document biodiversity and protected area data for planning and compliance.
+              </p>
+            </div>
+          </article>
+          <article
+            class="about-mandate-card about-mandate-card--policy group rounded-xl opacity-0 translate-y-4 transition-all duration-500 ease-out"
+            data-reveal
+            data-reveal-delay="230ms"
+          >
+            <div class="about-mandate-card-inner">
+              <div class="about-mandate-icon" aria-hidden="true">
+                <i data-lucide="git-branch" class="lucide h-5 w-5"></i>
+              </div>
+              <h3 class="about-mandate-title">Policy &amp; Program Coordination</h3>
+              <p class="about-mandate-desc">
+                Align regional activities with DENR issuances and inter-agency priorities affecting PAs and biodiversity.
+              </p>
+            </div>
+          </article>
+          <article
+            class="about-mandate-card about-mandate-card--data group rounded-xl opacity-0 translate-y-4 transition-all duration-500 ease-out"
+            data-reveal
+            data-reveal-delay="290ms"
+          >
+            <div class="about-mandate-card-inner">
+              <div class="about-mandate-icon" aria-hidden="true">
+                <i data-lucide="database" class="lucide h-5 w-5"></i>
+              </div>
+              <h3 class="about-mandate-title">Data &amp; Systems Support</h3>
+              <p class="about-mandate-desc">
+                Maintain information systems, spatial and tabular records, and reporting workflows for PAMBCS operations.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-profile-section border-b border-slate-200/80 bg-white py-14 sm:py-16" aria-labelledby="about-functions-heading">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <header class="about-profile-section-header mx-auto max-w-3xl text-center opacity-0 translate-y-4 transition-all duration-700 ease-out" data-reveal data-reveal-delay="0ms">
+          <p class="about-profile-eyebrow">Functions</p>
+          <h2 id="about-functions-heading" class="about-profile-title">Core Functions of PAMBCS Region 02</h2>
+          <p class="about-profile-lede">
+            Main functional areas through which the section delivers its mandate in Region 02.
+          </p>
+        </header>
+        <div class="about-functions-grid">
+          <article class="about-function-card opacity-0 translate-y-4 transition-all duration-500 ease-out" data-reveal data-reveal-delay="50ms">
+            <div class="about-function-card-inner">
+              <div class="about-function-icon" aria-hidden="true">
+                <i data-lucide="scan-search" class="lucide h-6 w-6"></i>
+              </div>
+              <h3 class="about-function-title">Protected Area Monitoring</h3>
+              <p class="about-function-desc">Tracks conditions, uses, and management responses in Region 02’s protected areas to guide interventions and reporting.</p>
+            </div>
+          </article>
+          <article class="about-function-card opacity-0 translate-y-4 transition-all duration-500 ease-out" data-reveal data-reveal-delay="110ms">
+            <div class="about-function-card-inner">
+              <div class="about-function-icon" aria-hidden="true">
+                <i data-lucide="sprout" class="lucide h-6 w-6"></i>
+              </div>
+              <h3 class="about-function-title">Biodiversity Conservation</h3>
+              <p class="about-function-desc">Advances species and ecosystem conservation programs consistent with national goals and regional priorities.</p>
+            </div>
+          </article>
+          <article class="about-function-card opacity-0 translate-y-4 transition-all duration-500 ease-out" data-reveal data-reveal-delay="170ms">
+            <div class="about-function-card-inner">
+              <div class="about-function-icon" aria-hidden="true">
+                <i data-lucide="hard-drive" class="lucide h-6 w-6"></i>
+              </div>
+              <h3 class="about-function-title">Data and Systems Management</h3>
+              <p class="about-function-desc">Curates geospatial and administrative data, quality checks, and systems that underpin transparent PAMBCS work.</p>
+            </div>
+          </article>
+          <article class="about-function-card opacity-0 translate-y-4 transition-all duration-500 ease-out" data-reveal data-reveal-delay="230ms">
+            <div class="about-function-card-inner">
+              <div class="about-function-icon" aria-hidden="true">
+                <i data-lucide="scale" class="lucide h-6 w-6"></i>
+              </div>
+              <h3 class="about-function-title">Policy and Program Support</h3>
+              <p class="about-function-desc">Provides technical backstopping, planning inputs, and coordination for policies and programs affecting Region 02 PAs.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="personnel-directory"
+      class="about-personnel-section border-t border-slate-200/80 bg-gradient-to-b from-stonebase via-white to-stonebase py-16 sm:py-20"
+      aria-labelledby="personnel-directory-heading"
+    >
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <header class="personnel-directory-section-header opacity-0 translate-y-4 transition-all duration-700 ease-out" data-reveal>
+          <p class="personnel-directory-eyebrow">Official roster</p>
+          <h2 id="personnel-directory-heading" class="personnel-directory-title">Personnel Directory</h2>
+          <p class="personnel-directory-lede">
+            Official PAMBCS Region 02 personnel as organized by leadership, technical and program roles, and data management support.
+          </p>
+        </header>
+
+        <div class="personnel-directory-groups">
+          <section class="personnel-directory-group" aria-labelledby="personnel-dir-chief-heading">
+            <div class="personnel-directory-group-head">
+              <span class="personnel-directory-group-icon" aria-hidden="true">
+                <i data-lucide="shield-check" class="lucide h-4 w-4" aria-hidden="true"></i>
+              </span>
+              <h3 id="personnel-dir-chief-heading" class="personnel-directory-group-title">Chief, PAMBCS</h3>
+            </div>
+            <div class="personnel-directory-chief-row">
+              <article
+                class="personnel-directory-card personnel-directory-card--chief opacity-0 translate-y-4 transition-all duration-500 ease-out"
+                data-reveal
+                data-reveal-delay="40ms"
+              >
+                <div class="personnel-directory-card-body">
+                  <div class="personnel-directory-avatar-wrap">
+                    <div class="personnel-directory-face" role="img" aria-label="Krizzle Anne C. Nool, initials KAN">
+                      <img src="assets/images/profile/krizzle.jpg" alt="" width="100" height="100" class="personnel-directory-photo opacity-0 transition-opacity duration-300" loading="lazy" data-personnel-directory-img />
+                      <span class="personnel-directory-initials" aria-hidden="true">KAN</span>
+                    </div>
+                  </div>
+                  <h4 class="personnel-directory-name">Krizzle Anne C. Nool</h4>
+                  <p class="personnel-directory-role">Chief, PAMBCS</p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="personnel-directory-group" aria-labelledby="personnel-dir-technical-heading">
+            <div class="personnel-directory-group-head">
+              <span class="personnel-directory-group-icon personnel-directory-group-icon--technical" aria-hidden="true">
+                <i data-lucide="briefcase" class="lucide h-4 w-4" aria-hidden="true"></i>
+              </span>
+              <h3 id="personnel-dir-technical-heading" class="personnel-directory-group-title">Technical / management personnel</h3>
+            </div>
+            <div class="personnel-directory-grid">
+              <article class="personnel-directory-card opacity-0 translate-y-4 transition-all duration-500 ease-out" data-reveal data-reveal-delay="50ms">
+                <div class="personnel-directory-card-body">
+                  <div class="personnel-directory-avatar-wrap">
+                    <div class="personnel-directory-face" role="img" aria-label="Korrina Dia Mae L. Delos Santos, initials KDS">
+                      <img src="assets/images/personnel/korrina-dia-mae-l-delos-santos.jpg" alt="" width="100" height="100" class="personnel-directory-photo opacity-0 transition-opacity duration-300" loading="lazy" data-personnel-directory-img />
+                      <span class="personnel-directory-initials" aria-hidden="true">KDS</span>
+                    </div>
+                  </div>
+                  <h4 class="personnel-directory-name">Korrina Dia Mae L. Delos Santos</h4>
+                  <p class="personnel-directory-role">Development Management Officer I</p>
+                </div>
+              </article>
+              <article class="personnel-directory-card opacity-0 translate-y-4 transition-all duration-500 ease-out" data-reveal data-reveal-delay="100ms">
+                <div class="personnel-directory-card-body">
+                  <div class="personnel-directory-avatar-wrap">
+                    <div class="personnel-directory-face" role="img" aria-label="Jasmine E. Gannaban, initials JEG">
+                      <img src="assets/images/personnel/jasmine-e-gannaban.jpg" alt="" width="100" height="100" class="personnel-directory-photo opacity-0 transition-opacity duration-300" loading="lazy" data-personnel-directory-img />
+                      <span class="personnel-directory-initials" aria-hidden="true">JEG</span>
+                    </div>
+                  </div>
+                  <h4 class="personnel-directory-name">Jasmine E. Gannaban</h4>
+                  <p class="personnel-directory-role">Development Management Officer I</p>
+                </div>
+              </article>
+              <article class="personnel-directory-card opacity-0 translate-y-4 transition-all duration-500 ease-out" data-reveal data-reveal-delay="150ms">
+                <div class="personnel-directory-card-body">
+                  <div class="personnel-directory-avatar-wrap">
+                    <div class="personnel-directory-face" role="img" aria-label="Donabel B. Carabbacan, initials DBC">
+                      <img src="assets/images/personnel/donabel-b-carabbacan.jpg" alt="" width="100" height="100" class="personnel-directory-photo opacity-0 transition-opacity duration-300" loading="lazy" data-personnel-directory-img />
+                      <span class="personnel-directory-initials" aria-hidden="true">DBC</span>
+                    </div>
+                  </div>
+                  <h4 class="personnel-directory-name">Donabel B. Carabbacan</h4>
+                  <p class="personnel-directory-role">Ecosystem Management Specialist I</p>
+                </div>
+              </article>
+              <article class="personnel-directory-card opacity-0 translate-y-4 transition-all duration-500 ease-out" data-reveal data-reveal-delay="200ms">
+                <div class="personnel-directory-card-body">
+                  <div class="personnel-directory-avatar-wrap">
+                    <div class="personnel-directory-face" role="img" aria-label="Leilanie P. Alcantara, initials LPA">
+                      <img src="assets/images/personnel/leilanie-p-alcantara.jpg" alt="" width="100" height="100" class="personnel-directory-photo opacity-0 transition-opacity duration-300" loading="lazy" data-personnel-directory-img />
+                      <span class="personnel-directory-initials" aria-hidden="true">LPA</span>
+                    </div>
+                  </div>
+                  <h4 class="personnel-directory-name">Leilanie P. Alcantara</h4>
+                  <p class="personnel-directory-role">Draftsman II</p>
+                </div>
+              </article>
+              <article class="personnel-directory-card opacity-0 translate-y-4 transition-all duration-500 ease-out" data-reveal data-reveal-delay="250ms">
+                <div class="personnel-directory-card-body">
+                  <div class="personnel-directory-avatar-wrap">
+                    <div class="personnel-directory-face" role="img" aria-label="Leonardo N. Odon Jr., initials LNO">
+                      <img src="assets/images/personnel/leonardo-n-odon-jr.jpg" alt="" width="100" height="100" class="personnel-directory-photo opacity-0 transition-opacity duration-300" loading="lazy" data-personnel-directory-img />
+                      <span class="personnel-directory-initials" aria-hidden="true">LNO</span>
+                    </div>
+                  </div>
+                  <h4 class="personnel-directory-name">Leonardo N. Odon Jr.</h4>
+                  <p class="personnel-directory-role">Development Management Officer II</p>
+                </div>
+              </article>
+              <article class="personnel-directory-card opacity-0 translate-y-4 transition-all duration-500 ease-out" data-reveal data-reveal-delay="300ms">
+                <div class="personnel-directory-card-body">
+                  <div class="personnel-directory-avatar-wrap">
+                    <div class="personnel-directory-face" role="img" aria-label="Christine Jane M. Natividad, initials CJN">
+                      <span class="personnel-directory-initials" aria-hidden="true">CJN</span>
+                    </div>
+                  </div>
+                  <h4 class="personnel-directory-name">Christine Jane M. Natividad</h4>
+                  <p class="personnel-directory-role">Development Management Officer I</p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="personnel-directory-group" aria-labelledby="personnel-dir-support-heading">
+            <div class="personnel-directory-group-head">
+              <span class="personnel-directory-group-icon personnel-directory-group-icon--support" aria-hidden="true">
+                <i data-lucide="database" class="lucide h-4 w-4" aria-hidden="true"></i>
+              </span>
+              <h3 id="personnel-dir-support-heading" class="personnel-directory-group-title">Support / administrative personnel</h3>
+            </div>
+            <div class="personnel-directory-grid">
+              <article class="personnel-directory-card opacity-0 translate-y-4 transition-all duration-500 ease-out" data-reveal data-reveal-delay="60ms">
+                <div class="personnel-directory-card-body">
+                  <div class="personnel-directory-avatar-wrap">
+                    <div class="personnel-directory-face" role="img" aria-label="Engelbert R. Ilac, initials ERI">
+                      <img src="assets/images/personnel/engelbert-r-ilac.jpg" alt="" width="100" height="100" class="personnel-directory-photo opacity-0 transition-opacity duration-300" loading="lazy" data-personnel-directory-img />
+                      <span class="personnel-directory-initials" aria-hidden="true">ERI</span>
+                    </div>
+                  </div>
+                  <h4 class="personnel-directory-name">Engelbert R. Ilac</h4>
+                  <p class="personnel-directory-role">Database Management Officer</p>
+                </div>
+              </article>
+              <article class="personnel-directory-card opacity-0 translate-y-4 transition-all duration-500 ease-out" data-reveal data-reveal-delay="120ms">
+                <div class="personnel-directory-card-body">
+                  <div class="personnel-directory-avatar-wrap">
+                    <div class="personnel-directory-face" role="img" aria-label="Mark Jezsper Orlanes, initials MJO">
+                      <img src="assets/images/personnel/mark-jezsper-orlanes.jpg" alt="" width="100" height="100" class="personnel-directory-photo opacity-0 transition-opacity duration-300" loading="lazy" data-personnel-directory-img />
+                      <span class="personnel-directory-initials" aria-hidden="true">MJO</span>
+                    </div>
+                  </div>
+                  <h4 class="personnel-directory-name">Mark Jezsper Orlanes</h4>
+                  <p class="personnel-directory-role">Database Management Officer</p>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 bg-forest text-slate-300">
+    <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between sm:gap-8">
+        <div class="max-w-md space-y-1">
+          <p class="text-sm font-semibold tracking-wide text-white">PAMBCS Region 02</p>
+          <p class="text-xs leading-snug text-slate-400">Protected Area Management and Biodiversity Conservation Section</p>
+          <p class="text-xs text-slate-500">DENR Region 02</p>
+        </div>
+        <nav aria-label="Footer quick links" class="sm:shrink-0 sm:text-right">
+          <p class="mb-2 text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-slate-500">Quick links</p>
+          <ul class="flex flex-wrap gap-x-5 gap-y-2 text-sm sm:justify-end">
+            <li>
+              <a href="index.html" class="inline-flex items-center gap-2 text-slate-200 transition hover:text-white hover:underline underline-offset-4 aria-[current=page]:text-white">
+                <i data-lucide="home" class="lucide lucide-footer" aria-hidden="true"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="about.html" aria-current="page" class="inline-flex items-center gap-2 text-slate-200 transition hover:text-white hover:underline underline-offset-4 aria-[current=page]:text-white">
+                <i data-lucide="info" class="lucide lucide-footer" aria-hidden="true"></i>
+                <span>About PAMBCS</span>
+              </a>
+            </li>
+            <li>
+              <a href="resources.html" class="inline-flex items-center gap-2 text-slate-200 transition hover:text-white hover:underline underline-offset-4 aria-[current=page]:text-white">
+                <i data-lucide="layout-dashboard" class="lucide lucide-footer" aria-hidden="true"></i>
+                <span>Resource Portal</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="mt-4 border-t border-white/10 pt-3 text-xs text-slate-500">
+        <p>&copy; 2026 PAMBCS Region 02. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <script src="js/about.js"></script>
+</body>
+</html>
